@@ -11,6 +11,10 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
+.puppycolors{
+  
+}
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
@@ -39,4 +43,37 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* General styling for the puppy list title */
+.puppy-list {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Styling for each puppy item */
+.puppy-item {
+  cursor: pointer;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+  transition: background-color 200ms;
+}
+
+.puppy-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* Styling for the featured puppy details */
+.featured-puppy {
+  margin-top: 2rem;
+}
+
+.featured-puppy h2 {
+  color: #555;
+}
+
+.featured-puppy li {
+  margin: 0.5rem 0;
 }
